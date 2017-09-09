@@ -1,0 +1,25 @@
+/**
+ * Created by Vivek Kumar on 09/09/17.
+ * vivekgari@gmail.com
+ * https://vivekkumar11432.wordpress.com
+ * https://github.com/vivek11432
+ */
+.body-attr{
+	background: beige;
+}
+.heading{
+	text-align: center;
+}
+.img-atr{
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.img-attr-50{
+	width: 49%;
+	display: inline-block;
+}
+.img-attr-30{
+	width: 30%;
+	display: inline-block;
+}
