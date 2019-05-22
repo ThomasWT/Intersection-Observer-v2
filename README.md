@@ -1,3 +1,23 @@
 # Intersection-Observer
 
-UI to render images using Intersection Observer. The idea is to load only those images that are there on the viewport instead of loading all the images. This would improve page performance significantly.
+lazyloading images, iframes and videos with intersection observer
+
+
+Video element
+```html
+<video class="lazy" height="auto" preload="none">
+   <source data-src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4" type="video/mp4">
+</video>
+```
+
+Iframe element
+```html
+<iframe data-src="https://www.w3schools.com"></iframe>
+```
+
+
+Multiple images entering the viewport
+```html
+<img style="display:inline-block;" data-src="/img/myimg.jpg">
+<img style="display:inline-block;" data-src="/img/myimg2.jpg">
+```
