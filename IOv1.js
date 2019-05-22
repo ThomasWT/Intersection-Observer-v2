@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function set_iframe_src(iframe_tag) {
         iframe_tag.src = iframe_tag.dataset.src;
-        resizeIframe(iframe_tag)
     };
     if ('IntersectionObserver' in window) {
         // Create new IntersectionObserver
