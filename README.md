@@ -3,8 +3,11 @@ Credits to https://github.com/vivek11432/Intersection-Observer-v2 for the baseco
 
 demo here: https://thomaswt.github.io/Intersection-Observer-v2/
 
+Example on elements <a href="#elements">at the bottom</a>
+
 <img src="https://i.imgur.com/VOpM6Qn.gif">
 
+<div id="elements">
 Video element
 ```html
 <video class="lazy" height="auto" preload="none">
@@ -23,3 +26,4 @@ Multiple images entering the viewport
 <img style="display:inline-block;" data-src="/img/myimg.jpg">
 <img style="display:inline-block;" data-src="/img/myimg2.jpg">
 ```
+</div>
