@@ -1,4 +1,5 @@
 # Intersection-Observer
+Credits to https://github.com/vivek11432/Intersection-Observer-v2 for the basecode
 
 lazyloading images, iframes and videos with intersection observer
 
