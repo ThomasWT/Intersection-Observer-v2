@@ -1,0 +1,12 @@
+{
+  "name": "lazyloading",
+  "version": "1.0.0",
+  "description": "This is a static template with no bundling",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasWT/Intersection-Observer-v2.git"
+  },
+  "author": "Thomas Thomsen",
+  "homepage": "https://thomaswt.github.io/Intersection-Observer-v2/"
+}
