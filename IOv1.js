@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
         var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
             entries.forEach(function(video) {
-                if (video.isIntersecting && $(video.target).is(":visible")) {
+                if (video.isIntersecting && video.target.offsetWidth > 0 && video.target.offsetHeight > 0) {
                     for (var source in video.target.children) {
                         var videoSource = video.target.children[source];
                         if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
