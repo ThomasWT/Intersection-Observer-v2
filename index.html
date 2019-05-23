@@ -6,25 +6,26 @@
 	<title>Elements rendering through Intersection Observer</title>
 	<meta name="description" content="Lazyloading images, iframes and videos with intersection observer" />
 	<meta name="keywords" content="lazyloading, lazyload, pagespeed, seo, pagespeed-insights, intersection-observer, intersectionobserver, intersectionobserver-api">
-  	<meta name="author" content="Thomas Thomsen">
+	  <meta name="author" content="Thomas Thomsen">
+	  <style>
+		/* Margin top to give scroll */
+	  img, iframe, video {
+		  margin-top:130vh;
+	  }
+	  </style>
 </head>
 <body class="body-attr">
 	<h1 class="heading">Scroll down</h1>
 	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
-	<img style="display:inline-block;width:45%;" data-src='images/1.jpg'  />
-	<img style="display:inline-block;width:45%;" data-src='images/2.jpg'  />
-	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
+	<img style="display:inline-block;width:45%;margin-top:140vh;" data-src='images/1.jpg'  />
+	<img style="display:inline-block;width:45%;margin-top:140vh;" data-src='images/2.jpg'  />
+		
 	<iframe data-src="https://thomaswt.github.io/Intersection-Observer-v2/index.html"></iframe>
-	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
+		
 	<video style="width:100%;" class="lazy" height="auto" preload="none" muted autoplay>
 		<source data-src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_normal.mp4" type="video/mp4">
 	</video>
+
 	<script defer type="application/javascript" src="IOv2.js"></script>
 </body>
 </html>
