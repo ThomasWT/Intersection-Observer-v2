@@ -5,6 +5,8 @@ demo here: https://thomaswt.github.io/Intersection-Observer-v2/
 
 Examples of elements <a href="#elements">at the bottom</a>
 
+<strong>No jQuery required</strong>
+
 <img src="https://i.imgur.com/VOpM6Qn.gif">
 
 <div id="elements">
