@@ -1,15 +1,11 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    function set_src(el) {
-        el.src = el.dataset.src;
-    };
-
     if ('IntersectionObserver' in window) {
         // Create new IntersectionObserver
         const io = new IntersectionObserver(function (el) {
             // Element enters the viewport
             el.forEach(function (entry) {
                 if (entry.intersectionRatio !== 0) {
-                    set_src(entry.target);
+                    entry.target.src = entry.target.dataset.src;
                 }
             })
         });
